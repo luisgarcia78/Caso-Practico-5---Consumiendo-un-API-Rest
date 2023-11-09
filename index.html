@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <link rel="stylesheet" href="stilos/reset.css" />
+  <link rel="stylesheet" href="stilos/style.css" />
+  <script src="/js/main.js" defer></script>
+ 
+  <title>Clima</title>
+</head>
+
+<body>
+  <main>
+    
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+      <a class="navbar-brand" href="index.html"> <img src="images/clima-com-logo-vector.png" class="logo"></a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav">
+              <li class="nav-item active">
+                  <a class="nav-link" href="index.html">Inicio</a>
+              </li>
+              <li class="nav-item">
+                  <a class="nav-link" href="buscaPaises.html">busca idiomas</a>
+              </li>
+              <li class="nav-item">
+                  <a class="nav-link" href="Detectaidioma.html">Detector de idioma</a>
+              </li>
+              <li class="nav-item">
+                  <a class="nav-link" href="BuscaImagen.html">buscador de imagenes</a>
+              </li>
+          </ul>
+      </div>
+  </nav>
+
+    <div class="search-form">
+      <form id="search-form">
+        <div class="searchbox">
+          <input type="text" autocomplete="off" placeholder="Buscar ciudad..." class="search" id="searchbox" />
+        </div>
+      </form>
+    </div>
+    <div class="card-clima" id="card">
+      <div class="city" id="city"></div>
+      <div class="date" id="date"></div>
+      <div class="temperature">
+        <img src="images/temp-mid.png" class="temp-img" id="temp-img" />
+        <div class="temp" id="temp"></div>
+      </div>
+      <div class="weather" id="weather"></div>
+      <div class="range" id="range"></div>
+      <div class="air" id="viento"></div>
+    </div>
+  </main>
+  <footer>
+   
+  </footer>
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+
+</html>
