@@ -11,23 +11,6 @@ const temp = document.getElementById('temp');
 const weather = document.getElementById('weather');
 const range = document.getElementById('range');
 
- window.addEventListener('load',()=> {
-//   let long
-//   let lat
-
-//   if(navigator.geolocation){
-//     navigator.geolocation.getCurrentPosition(posicion =>{
-//       console.log(posicion);
-
-//      long = posicion.coords.longitude
-//      lat = posicion.coords.latitude
-     
-//      const url = `https://api.openweathermap.org/data/2.5/weather?lat=${lat}&lon=${long}&exclude={part}&appid=951cf45d4fe81c27265614dd4b420c96`
-//     })
-//   }
-  
-})
-
 //funcion para obtener la fecha actual 
 function getCurrentDate() {
   const currentDate = new Date();
