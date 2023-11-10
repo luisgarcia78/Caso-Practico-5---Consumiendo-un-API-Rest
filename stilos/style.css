@@ -30,6 +30,9 @@ footer {
   border-top: 1px solid grey;
   width: 100%;
   text-align: center;
+  color: rgb(255, 255, 255);
+  background: rgba(58, 75, 112, 0.271);
+
 }
 
 .search-form {
@@ -64,7 +67,7 @@ footer {
   border-radius: 3px;
   display: none;
   margin-left: 15%;
-   width: 70%;
+  width: 70%;
   
 }
 
@@ -101,9 +104,7 @@ footer {
   font-size: 1.8rem;
   margin-bottom: 0.5rem;
 }
-.air{
-  
-}
+
 .range{
   margin-bottom: 0.5rem;
 }
@@ -117,7 +118,7 @@ footer {
 #countryTable {
 
   overflow: auto;
- text-align: center;
+  text-align: center;
 
 }
 
@@ -134,11 +135,23 @@ footer {
 }
 
 .showImg{
-  width: 40%;
-  height: 40%;
+  width: 90%;
+  height: 80%;
   text-align: center;
 }
 img {
   max-width: 100%;
   height: auto;
 }
+.titulodentrocard{
+color: black;
+}
+.api-container h2{
+color: black;
+font: bold;
+}
+
+.api-container a{
+  color: rgb(34, 108, 255);
+  text-decoration: none;
+  }

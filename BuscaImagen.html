@@ -31,15 +31,25 @@
                 <li class="nav-item">
                     <a class="nav-link" href="BuscaImagen.html">buscador de imagenes</a>
                 </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="Apis.html">Apis Utilizados</a>
+              </li>
             </ul>
         </div>
     </nav>
+    <h1 class="text-center" style="font-size: 40px;">Buscador de imagenes <img src="images/buscador.png" alt="" class="logo"></h1><br>
     <div class="container">
-        <label for="countryInput">Escribe lo que deceas buscar:</label>
-        <input type="text" id="countryInput" placeholder="Ej. coche">
-        <button onclick="buscarImagen()">Buscar Imagen</button>
-        <div id="imagenContainer" class="showImg"></div>
+      <div class="searchbox">
+        <label for="countryInput" class="titulodentrocard">Escribe lo que deceas buscar:</label><br><br>
+        <input type="text" id="countryInput" placeholder="Ej. coche" class="form-control"><br>
+        <button onclick="buscarImagen()" class="btn btn-primary">Buscar Imagen</button><br><br>
+        <div id="imagenContainer" class="showImg" style="align-items: center;"></div>
     </div>
-    
+    </div><br><br>
+    <footer>
+        
+        <p>&copy; 2023 Equipo 1. Todos los derechos reservados.</p>
+        <p>Caso práctico 5</p>
+      </footer>
 </body>
 </html>
